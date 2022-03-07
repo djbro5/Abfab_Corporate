@@ -1,0 +1,54 @@
+
+/* *************************************************************************************
+ # style.css 
+ ************************************************************************************ */
+
+/* 10px = 0.625em, 15px = 0.94em, 20px = 1.25em 30px = 1.7vw */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* font-size vw fluid element for fluid typography */
+html,body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1vw;
+} 
+
+
+li {
+  padding: 0.4vw;
+}
+
+
+/* *************************************************************************************
+    Media queries 
+************************************************************************************* */
+
+
+
+/* Mobile friendly */
+@media screen and (max-width: 621px) {
+  /* styles */
+
+  html, body{
+    font-size: 2.5vw;
+  }
+
+  #nav { 
+    display: none;
+  }
+
+ #main_heading   {
+  width: 100%;
+  }
+
+  #logo{
+    width: 100%;
+  }
+ 
+  
+}
