@@ -19,39 +19,27 @@
   
   <body>
 
-
-    <div class="container-fluid">   <!-- start home page -->
-
-      <div class="row"> <!-- start header -->
-
-        <div class="col-sm-7">
-          <div class="d-inline-flex" >
-              <p class=" text start fs-4" id="logo" style="padding-top: 2vw; text-align: center;" >ABSOLUTELY FABULOUS CORPORATE<br><span class="fs-5">- Made in Australia -</span></p>
+    <div class="container-fluid fixed-top" >   <!-- start header -->
+      <nav class="navbar navbar-expand-lg navbar-nav-scroll  navbar-light bg-light border-bottom " style="padding-top: 0.5vw;">
+        <p class=" text start fs-4 " id="logo" style="text-align: center;" >ABSOLUTELY FABULOUS CORPORATE<br><span class="fs-5">- Made in Australia -</span></p>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="fs-6 navbar-nav">
+              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#bespoke">Bespoke</a>
+              <a class="nav-link" href="#rtw">Ready-to-Wear</a>
+              <a class="nav-link" href="#merchandising">Merchandising</a>
+              <a class="nav-link" href="#aboutUs">About Us</a>
+              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#">Login</a>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-5">
-          <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-top: 2vw;">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="fs-6 navbar-nav">
-                  <a class="nav-link" href="#">Home</a>
-                  <a class="nav-link" href="#">Bespoke</a>
-                  <a class="nav-link" href="#">Ready-to-Wear</a>
+      </nav>
+    </div>      <!-- end header -->
 
-                  <a class="nav-link" href="#">Merchandising</a>
-                  <a class="nav-link" href="#">About Us</a>
-                  <a class="nav-link" href="#">Contact</a>
-                  <a class="nav-link" href="#">Login</a>
-                </div>
-              </div>
-            </nav>
-          </div>
-        </div>
-      
-      </div>  <!-- end header -->
+    <div class="container-fluid" style="padding-top: 7vw;">   <!-- start home page -->
 
       <div class="front" style="background-color: #9497B9; margin-top: 5.1vw; margin-bottom: 5.5vw; ">
         <div class="row ">
@@ -108,6 +96,7 @@
           <img src="images/BrandSouthAus.png" class="img-fluid" alt="Brand South Australia">
         </div>
         </div>
+
       </div>  <!-- end home page-->
 
       <div class="row ">
@@ -120,49 +109,52 @@
 
     <div class="container">
 
-      <div class="bespoke"> <!-- start products page-->
+      <div class="bespoke" id="bespoke" > <!-- start products page-->
         <div class="row">
           <div class="col-sm-12">
-            <h1 style="text-align: left; margin-top: 1.5vw;">Bespoke</h1>
+            <h1  style="text-align: left; margin-top: 1.5vw;">Bespoke Corporate Uniforms</h1>
             <p>We offer fully bespoke, custom designed uniform ranges, as well as customised ready-to-wear stock items. Styles range from corporate to casual and everything in-between. 
               We pride ourselves on the ability to add value to every project and client we work with.</p>
           </div>
-
         </div>
         
-
         <div class="row">
                 <div class="col-sm-4">
-            <h3>Bespoke Corporate Uniform Range</h3>
+            <h5>Process</h5>
             <p>We understand that no two clients are the same. As a design led company, we are proud of our ability to add an innovative and fresh look to every type of uniform. 
                 At Absolutely Fabulous Corporate, we have an in-house design team with extensive experience designing uniforms across all industry sectors. Take a look at the options 
                 below to get an idea of the range of bespoke options  we are able to undertake for you. . 
             <h5>Complete Solution Management</h5>
             <p>We can provide a complete solution including dresses, men's suits with shirt and tie. Once set up,  you can login and re-order your uniform garments through our easy-to-use secure customer portal.  </p>
           </div>
+          
           <div class="col-sm-4">
-            <img src="images/PP_uniform_image02.jpg" class="img-fluid" alt="Paisley Park tunic">
+            <img src="images\Cobham_dress_blouse_skirt.jpg" class="img-fluid" alt="Dress and blouse">
           </div>
           <div class="col-sm-4">
-            <img src="images/PP_uniform_image02.jpg" class="img-fluid" alt="Paisley Park tunic">
+            <img src=" images/PP_uniform_image02.jpg" class="img-fluid" alt="Paisley Park tunic">
           </div>
         </div>
 
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-5">
             <p></p>
           </div>
-          <div class="col-sm-6">
-            <img src="" class="img-fluid" alt="dress">
+          <div class="col-sm-4">
+            <img src="images\dress_design_03.jpg" class="img-fluid" alt="Dress design">
           </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <p></p>
+            </div>
         </div>
 
       </div>  <!-- end products page-->
 
-      <div class="readyToWear"> <!-- start readyToWear page-->
+      <div class="readyToWear" id="rtw"> <!-- start readyToWear page-->
         <div class="row">
           <div class="col-sm-12">
-            <h1 style="text-align: left; margin-top: 1.5vw;">Ready-to-Wear</h1>
+            <h1  style="text-align: left; margin-top: 1.5vw;">Ready-to-Wear</h1>
             <p></p>
           </div>
         </div>
@@ -179,7 +171,7 @@
         </div>
       </div>  <!-- end page-->
 
-      <div class="Solution"> <!-- start solution page-->
+      <div class="merchandising" id="merchandising"> <!-- start merchandising page-->
         <div class="row">
           <div class="col-sm-12">
             <h1 style="text-align: left; margin-top: 1.5vw;">Merchandising</h1>
@@ -196,7 +188,7 @@
         </div>
       </div>  <!-- end page-->
 
-      <div class="about"> <!-- start about page-->
+      <div class="about" id="aboutUs"> <!-- start about page-->
         <div class="row">
           <div class="col-sm-12">
             <h1 style="text-align: left; margin-top: 1.5vw;">About Us</h1>
@@ -217,7 +209,7 @@
         </div>
       </div>  <!-- end company page-->
 
-      <div class="contact_us"> <!-- start contact page-->
+      <div class="contact_us" id="contact"> <!-- start contact page-->
         <div class="row">
           <div class="col-sm-12">
             <h1 style="text-align: left; margin-top: 1.5vw;">Contact Us</h1>
