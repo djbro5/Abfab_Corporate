@@ -15,14 +15,22 @@
 html,body {
   height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 1vw;
+
+    font-size: calc(10px + 0.390625vw);
+
 } 
 
-
-li {
-  padding: 0.4vw;
+/*
+p {
+  font-weight: normal;
+  font-size: 1.2vw;
 }
 
+
+.card-text {
+  font-size: 1vw;
+}
+*/
 
 /* *************************************************************************************
     Media queries 
@@ -31,24 +39,50 @@ li {
 
 
 /* Mobile friendly */
-@media screen and (max-width: 621px) {
-  /* styles */
 
+@media screen and (max-width: 768px) {
+  /* styles
   html, body{
-    font-size: 2.5vw;
+    font-size: 1.2vw;
   }
 
-  #nav { 
+ */
+
+  #client_logos { 
     display: none;
-  }
-
- #main_heading   {
-  width: 100%;
   }
 
   #logo{
     width: 100%;
   }
- 
-  
+
+  /*
+  p {
+    font-size: 2vw;
+  }
+}
+*/
+
+@media screen and (max-width: 621px) {
+  /* styles
+  html, body{
+    font-size: 2vw;
+  }
+   */
+  .navbar-nav { 
+    display: none;
+  }
+  #client_logos { 
+    display: none;
+  }
+ #main_heading   {
+  width: 100%;
+  }
+  #logo{
+    width: 100%;
+  }
+  p {
+    font-size: 3vw;
+  }
+}
 }

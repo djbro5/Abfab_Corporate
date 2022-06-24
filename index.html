@@ -14,185 +14,232 @@
     <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no " > <!-- shrink-to-fit=no -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>  
   </head>
 
   
   <body>
 
-    <div class="container-fluid fixed-top" >   <!-- start header -->
-      <nav class="navbar navbar-expand-lg navbar-nav-scroll  navbar-light bg-light border-bottom " style="padding-top: 0.5vw;">
-        <p class=" text start fs-4 " id="logo" style="text-align: center;" >ABSOLUTELY FABULOUS CORPORATE<br><span class="fs-5">- Made in Australia -</span></p>
+     <!-- start HEADER section -->
+    <div class="container-fluid fixed-top" style="background-color: #F8F9FB">  
+      <nav class="navbar navbar-expand-md  navbar-light bg-light border-bottom " style="padding-top: 0.5vw;">
+        <p class=" text start fs-4 " id="logo" style="text-align: center;" >ABSOLUTELY FABULOUS CORPORATE<br><span class="fs-6">- Made in Australia -</span></p>
+        <!--
         <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
+      -->
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="fs-6 navbar-nav">
-              <a class="nav-link" href="#">Home</a>
-              <a class="nav-link" href="#bespoke">Bespoke</a>
-              <a class="nav-link" href="#rtw">Ready-to-Wear</a>
-              <a class="nav-link" href="#merchandising">Merchandising</a>
-              <a class="nav-link" href="#aboutUs">About Us</a>
-              <a class="nav-link" href="#contact">Contact</a>
-              <a class="nav-link" href="#">Login</a>
+            <div class=" navbar-nav">
+              <a class="nav-link" href="#" style="color: #9497B9;">Home</a>
+              <a class="nav-link" href="#bespoke" style="color: #9497B9;" >Bespoke</a>
+              <a class="nav-link" href="#rtw" style="color: #9497B9;">Ready-to-Wear</a>
+              <a class="nav-link" href="#merchandising" style="color: #9497B9;" >Merchandising</a>
+              <a class="nav-link" href="#aboutUs" style="color: #9497B9;">About</a>
+              <a class="nav-link" href="#contact" style="color: #9497B9;" >Contact</a>
+              <a class="nav-link" href="#" style="color: #9497B9;">Client login</a>
             </div>
           </div>
       </nav>
-    </div>      <!-- end header -->
+    </div>      <!-- end section -->
 
-    <div class="container-fluid" style="padding-top: 7vw;">   <!-- start home page -->
+    <!-- start HOME section -->
+    <div class="container-fluid" style="padding-top: 7vw;">   
+      
 
-      <div class="front" style="background-color: #9497B9; margin-top: 5.1vw; margin-bottom: 5.5vw; ">
+      <div class="front" style="background-color: #9497B9;  margin-top: 5vw; margin-bottom: 5vw; ">
         <div class="row ">
-            <div class="col-sm-3">
-              <h1 id="main_heading" style="color: #FFFFFF; font-size: 4vw; text-align: center; margin-top: 1.5vw;"><b>Bespoke<br>Corporate <br>Uniforms</b></h1>
-              <h2 id="main_heading" style="color: #FFFFFF; text-align: center; padding-bottom: 0.9vw;" >and Ready-to-Wear</h2>
+            <div class="col-xs-12 col-sm-3">
+              <p class="display-2" style="color: #FFFFFF; font-size: 4vw; text-align: center; margin-top: 1vw;"><b>Bespoke<br>Corporate <br>Uniforms</b></p>
+              <p class="text fs-4" id="main_heading" style="color: #FFFFFF; text-align: center; margin-bottom: 0.9vw;" >and Ready-to-Wear</p>
             </div>
-            <div class="col-sm-5">
-              <h3 style="color: #FFFFFF; text-align: center; margin-top: 3.5vw; ">Fashion to Project Your Company's Image<br></h3>
-              <h5 style="color: #FFFFFF; margin-left: 5vw">
-                <ul>
-                  <li>Custom designed corporate uniforms</li>
-                  <li>Complete Solution Management</li>
-                  <li>Style, Comfort, and Satisfaction</li>
+            <div class="col-xs-12 col-sm-5">
+              <h3 style="color: #FFFFFF; text-align: center; margin-top: 3vw; ">Fashion to Project Your Company's Image<br></h3>
+              <!-- h4 style="color: #FFFFFF; margin-left: 5vw;" -->
+                <ul class="text fs-5" style="color: #FFFFFF; margin-left: 5vw;">
+                  <li>Custom Designed Corporate Uniforms</li>
+                  <li>Complete solution management</li>
+                  <li>Mix and match with Ready-to-Wear</li>
+                  <li>Style, comfort, quality and satisfaction</li>
                   <li>Designed and manufactured in Australia</li>
+                  <li>Corporate Branding and Merchandising</li>
                 </ul>
-                Also Ready-to-Wear and Corporate Merchandising
-              </h5>
+                <!-- Also Ready-to-Wear and Corporate Merchandising -->
+              <!-- /h4 -->
             </div>
-            <div class="col-sm-4">
+            <div class="col-xs-12 col-sm-4">
               <img src="images/cobham_gbg_uniform.jpg" class="img-fluid" alt="Uniforms" style="width:100%">
             </div>
         </div>
       </div> 
 
-      <div class="row ">
+      <div class="row " id="client_logos" style="margin-bottom: 5vw";>
         <div class="col-sm-1 align-self-center">
-          <img src="images/cobham_.jpg" class="img-fluid" alt="Cobham">
+          <img src="images/cobham_.jpg" class="img-fluid" alt="Cobham" style="width:60%">
         </div>
         <div class="col-sm-1 align-self-center">
-          <img src="images/paisley_park.jpg" class="img-fluid" alt="Paisley Park">
+          <img src="images/paisley_park.jpg" class="img-fluid" alt="Paisley Park" style="width:60%">
         </div>
         <div class="col-sm-1 align-self-center ">
-          <img src="images/maxima.jpg" class="img" alt="Maxima">
+          <img src="images/maxima.jpg" class="img" alt="Maxima" style="width:60%">
         </div>
         <div class="col-sm-1 align-self-center ">
-          <img src="images/wake.jpg" class="img" alt="Wake Construction Group">
+          <img src="images/wake.jpg" class="img" alt="Wake Construction Group" style="width:60%">
         </div>
         <div class="col-sm-1 align-self-center">
-          <img src="images/bigredride.jpg" class="img-fluid" alt="Big Red Ride">
+          <img src="images/bigredride.jpg" class="img-fluid" alt="Big Red Ride"style="width:60%" >
         </div>
         <div class="col-sm-1 align-self-center">
-          <img src="images/imvs.jpg" class="img-fluid" alt="IMVS">
+          <img src="images/imvs.jpg" class="img-fluid" alt="IMVS" style="width:60%">
         </div>
         <div class="col-sm-1 align-self-center">
-          <img src="images/NECH_logo_small.jpg" class="img-fluid" alt="NECH">
+          <img src="images/NECH_logo_small.jpg" class="img-fluid" alt="NECH" style="width:60%" >
         </div>
         <div class="col-sm-1 align-self-center">
-          <img src="images/Adelaide-City-Council-logo.jpg" class="img-fluid" alt="Adelaide City Council">
+          <img src="images/Adelaide-City-Council-logo.jpg" class="img-fluid" alt="Adelaide City Council" style="width:60%">
         </div>
         <div class="col-sm-3">
         </div>
         <div class="col-sm-1 align-self-center">
+          <p style="font-size: 1vw;">QMS ISO 9001</p>
           <img src="images/BrandSouthAus.png" class="img-fluid" alt="Brand South Australia">
         </div>
         </div>
 
-      </div>  <!-- end home page-->
+      </div>  <!-- end HOME section -->
 
-      <div class="row ">
-        <div class="col-sm-12">
-          <div>
-            <p><br><br><br><br></p>
+      
+
+    <div class="container overflow-auto">
+
+      <!-- start BESPOKE section -->
+      <div class="bespoke" id="bespoke"> 
+        <div class="row">
+          <div class="col-sm-9">
+            <h1 style="text-align: left; margin-top: 2vw; color: #9497B9;">Bespoke Uniforms - Custom Designed</h1>
+            <p>No two clients are the same and that is why we custom design uniforms to project your distinctive corporate brand. We can design, produce, and accesorise for you a complete women's and men's 
+              corporate uniform package, a branded top, or anything in between.
+            </p>
+              <!-- Our client base include Airlines, city councils, childcare centres, construction companies, hospitals and retail shops. -- sprinkle pictures of uniform dress, belt, scarf, shirt, tie and polo -->
+          </div>
+          <div class="col-sm-3">
+
+            <img src="images/bespoke_dummy_02.jpg"  class="rounded img-fluid" style="margin-top: 0vw; width:80%" alt="Bespoke dummy IMAGE OF FULL SUIT  AND BRANDED TOP?">
+
           </div>
         </div>
-      </div>
 
-    <div class="container">
-
-      <div class="bespoke" id="bespoke" > <!-- start products page-->
-        <div class="row">
-          <div class="col-sm-12">
-            <h1  style="text-align: left; margin-top: 1.5vw;">Bespoke Corporate Uniforms</h1>
-            <p>We offer fully bespoke, custom designed uniform ranges, as well as customised ready-to-wear stock items. Styles range from corporate to casual and everything in-between. 
-              We pride ourselves on the ability to add value to every project and client we work with.</p>
+        <h3 style="color: #9497B9; margin-top: 1.5vw;">From corporate uniform to work uniform to branded jersey</h3>
+        <div class="row gap-3" style="margin-top: 1.5vw;" >
+          <div class="col sm-3">
+            <div class="card">
+              <img src="images/Cobham_dress_blouse_skirt.jpg"  class="rounded img-responsive" style="width:100%"balt="Dress and blouse">
+              <p  class="card-text" style="margin-top: 1vw;">Dress and blouse with skirt. Finished with cyan stripe silk scarf and belt. </p>
+            </div>
+          </div>
+          <div class="col sm-3">
+            <div class="card">
+              <img src="images/Cobham_jacket _scarf_02.jpg"   class="rounded img-responsive justify-content-sm-center "  style="width:75%" alt="Dress and blouse">
+              <p  class="card-text" style="margin-top: 1vw;">Fitted tailored jacket and skirt with blouse, knitted vest and corporate scarf.</p>
+            </div>
+          </div>
+          <div class="col sm-3"> 
+            <div class="card">
+              <img src="images/PP_uniform_image02.jpg"  class="rounded img-responsive" style="width:85%" alt="Paisley Park tunic">
+              <p  class="card-text" style="margin-top: 1vw;" >Bengaline corporate tunic designed for practical use in childcare centre. </p>
+            </div>
+          </div>
+          <div class="col sm-3">
+            <div class="card">
+              <img src="images/bigredride_jersey.JPG"  class="rounded img-responsive" style="width:95%" alt="Paisley Park tunic">
+              <p  class="card-text" style="margin-top: 1vw;" >Lycra branded jersey for corporate event</p>
+            </div>
           </div>
         </div>
         
         <div class="row">
-                <div class="col-sm-4">
-            <h5>Process</h5>
-            <p>We understand that no two clients are the same. As a design led company, we are proud of our ability to add an innovative and fresh look to every type of uniform. 
-                At Absolutely Fabulous Corporate, we have an in-house design team with extensive experience designing uniforms across all industry sectors. Take a look at the options 
-                below to get an idea of the range of bespoke options  we are able to undertake for you. . 
-            <h5>Complete Solution Management</h5>
-            <p>We can provide a complete solution including dresses, men's suits with shirt and tie. Once set up,  you can login and re-order your uniform garments through our easy-to-use secure customer portal.  </p>
+          <div class="col-sm-7 px-2">
+
+            <h3 style="color: #9497B9; margin-top: 2vw;">Process - How we do it.</h3>
+            <p>You give us the brief and we'll find the inspiration! We'll create and hone in on the design, choose the fabric and colour, silhouette and sample, assemble then test sample garmets with the client. 
+              After client approval we move to production, quality inspect, pack then deliver. Made in Australia
+
+            <h3 style="color: #9497B9; margin-top: 2vw;">Complete Solution Management</h3>
+            <p>We manage all aspects of our client's uniform needs to take the pain out of the process. That is, design, sample, manufacture, accessorise and deliver, add tracking labels
+              to client inventory and re-order. Progress metrics can be viewed online via secure client login. <<QMS>> </p>
+
           </div>
-          
-          <div class="col-sm-4">
-            <img src="images\Cobham_dress_blouse_skirt.jpg" class="img-fluid" alt="Dress and blouse">
-          </div>
-          <div class="col-sm-4">
-            <img src=" images/PP_uniform_image02.jpg" class="img-fluid" alt="Paisley Park tunic">
+          <div class="col-sm-5 px-3">
+            <img src="images/fabric_selection_02.jpg"  class="rounded img-fluid" style="  margin-top: 2vw; width:70%" alt="Bespoke dummy IMAGE OF FULL SUIT  AND BRANDED TOP?">
           </div>
         </div>
 
         <div class="row">
-          <div class="col-sm-5">
-            <p></p>
+          <!-- div class="col-sm-1" /div -->
+          <div class="col-sm-7 px-2">
+            <!--  <i class='bi bi-dot'></i> -->
+            <h3 style="color: #9497B9; margin-top: 2vw;">Accessorise!</h3>
+            <p>We don't just stop at the garmets. We'll accesserise it with belts, ties, scarfs to embelish the full look.
+              <<sprinkle add pictures of uniform dress, belt, scarf, shirt, tie and polo>></p>
+            <h3 style="color: #9497B9; margin-top: 2vw;">Mix and Match</h3>
+            <p <<Ties belts scarfs QMS>> </p>
           </div>
-          <div class="col-sm-4">
-            <img src="images\dress_design_03.jpg" class="img-fluid" alt="Dress design">
-          </div>
-          <div class="row">
-            <div class="col-sm-3">
-              <p></p>
-            </div>
-        </div>
-
-      </div>  <!-- end products page-->
-
-      <div class="readyToWear" id="rtw"> <!-- start readyToWear page-->
-        <div class="row">
-          <div class="col-sm-12">
-            <h1  style="text-align: left; margin-top: 1.5vw;">Ready-to-Wear</h1>
-            <p></p>
+          <div class="col-sm-5 px-3">
+            <img src="images/sewing.jpg"  class="rounded img-fluid" style="  margin-top: 2vw; width:70%" alt="Bespoke dummy IMAGE OF FULL SUIT  AND BRANDED TOP?">
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <p style="text-align: center; margin-top: 1.5vw;" >Ready-to-Wear</p>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/biz_corporate_dress.jpg" class="img-fluid" alt="BizCorporate dress">
-          </div>
-          <div class="col-sm-4">
-            <p style="text-align: center; margin-top: 1.5vw;" >Ready-to-Wear</p>
-          </div>
-        </div>
-      </div>  <!-- end page-->
 
-      <div class="merchandising" id="merchandising"> <!-- start merchandising page-->
+
+
+      </div>  <!-- end section -->
+
+      <!-- start READYTOWEAR section -->
+      <div class="readyToWear" id="rtw">
         <div class="row">
           <div class="col-sm-12">
-            <h1 style="text-align: left; margin-top: 1.5vw;">Merchandising</h1>
+            <h1  style="text-align: left; margin-top: 6.5vw; color: #9497B9; ">Ready-to-Wear</h1>
+            <p></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <p style="text-align: start; margin-top: 1.5vw;" >We supply ready-to-wear or off-the rack uniforms for all work sectors, that is, corporate, hospitality, medical, childcare, trades, etc.  
+              We can put together a complete corporate wardrobe including accessories such as belts, ties and scarfs. Our suppliers include: Biz Collection, John Kevin</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="images/biz_corporate_dress.jpg" class="rounded img-fluid" style="margin-top: 1.5vw;" alt="BizCorporate dress">
+          </div>
+          <div class="col-sm-4">
+            <img src="images/light_grey_mens_suit.jpg" class="rounded img-responsive" style="width:75%;" alt="Men's suit">
+            <p style="margin-top: 1vw;" >Men's suit</p>
+          </div>
+        </div>
+      </div>  <!-- end section -->
+
+      <!-- start MERCHANDISING section -->
+      <div class="merchandising" id="merchandising"> 
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 style="text-align: left; margin-top: 6.5vw; color: #9497B9; ">Merchandising</h1>
             <p></p>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-6">
-            <p style="text-align: center; margin-top: 1.5vw;">Merchandising</p>
+            <p style="text-align: center; margin-top: 1.5vw;">Corporate events e.g. golf days etc., corporate branding, charity events, sporting events. any activity where you want your brand advertised work uniform logo </p>
           </div>
           <div class="col-sm-6">
             <img src="images/red_cap.jpg" class="img-fluid" alt="Red Cap">
           </div>
         </div>
-      </div>  <!-- end page-->
+      </div>  <!-- end section -->
 
-      <div class="about" id="aboutUs"> <!-- start about page-->
+       <!-- start ABOUT section -->
+      <div class="about" id="aboutUs">
         <div class="row">
           <div class="col-sm-12">
-            <h1 style="text-align: left; margin-top: 1.5vw;">About Us</h1>
-            <h3>Supplying Industry and Businesses since 1994</h3> 
+            <h1 style="text-align: left; margin-top: 6.5vw;  color: #9497B9;">About Us</h1>
+            <h3 style="color: #9497B9">Supplying Businesses since 1994</h3> 
             <p>Starting life as a successful party plan fashion business, we morphed into bespoke corporate uniforms after securing  a contract to design, manufacture and supply a corporate uniform range to a multinational company. 
               With 25+ years experience behind us, we continue to proudly offer a one-stop shop to support our wide range of clients and all of their corporate uniform, 
               workwear and personal protective equipment (PPE) requirements. Our clients range from airlines to childcare centres, from sporting clubs to retail, private sector and local government organisations. 
@@ -207,12 +254,13 @@
             <p style="text-align: center; margin-top: 1.5vw;" >About</p>
           </div>
         </div>
-      </div>  <!-- end company page-->
+      </div>  <!-- end section -->
 
-      <div class="contact_us" id="contact"> <!-- start contact page-->
+      <!-- start CONTACT section -->
+      <div class="contact_us" id="contact"> 
         <div class="row">
           <div class="col-sm-12">
-            <h1 style="text-align: left; margin-top: 1.5vw;">Contact Us</h1>
+            <h1 style="text-align: left; margin-top: 6.5vw;  color: #9497B9;">Contact Us</h1>
             <p></p>
           </div>
         </div>
@@ -224,7 +272,7 @@
             <p style="text-align: center; margin-top: 1.5vw;" >Contact Us</p>
           </div>
         </div>
-      </div>  <!-- end contact us page-->
+      </div>  <!-- end section -->
 
     </div>  <!-- end container-->
 
@@ -236,6 +284,8 @@
       </div>
     </div>
 
+    <div id="like_button_container"></div>
+
             <!-- footer -->
             <div class="container-fluid">
                 <div class="footer px-3- bg-light text-dark"> <!-- footer start -->
@@ -243,11 +293,9 @@
       
                     <div class="col-sm-6">   <!-- column 1 -->
                       <div class="footerColOne">
-                        <p>Copyright &copy; 2021 &nbsp;Site by DJDJ</p>
+                        <p>Copyright &copy; 2022 &nbsp;Site by DJDJ</p>
                       </div>
                     </div>
-      
-                    
       
                     <div class="col-sm-6">  <!-- Column 2 --> 
                       <div class="footerColThree">
@@ -278,14 +326,21 @@
               </div> <!-- container end -->
       
       
-              <script>
+  <script>
       
-              </script>
+  </script>
       
-              <!-- jQuery library -->
-              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-              <!-- JavaScript Bundle with Popper -->
-              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
       
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
   </body>  
 </html>
