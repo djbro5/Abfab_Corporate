@@ -26,7 +26,7 @@ Application is a single page, responsive website using a Bootstrap 5 framework t
 
 It scales down for viewing on mobile smartphone using Bootstrap's responsive design technology, together with custom CSS breakpoints and media queries.
 
-### STRUCTURE
+### Structure
 
 The website and code is divided into the following sections:
 
