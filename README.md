@@ -23,22 +23,29 @@ THEN
 ## APPLICATION DESCRIPTION
 
 Application is a single page, responsive website using a Bootstrap 5 framework together with HTML, CSS and JavaScript.
-It scales down well for viewing on mobile smartphone, using Bootstrap's responsive design technology, together with custom CSS breakpoints and media queries.
+
+It scales down for viewing on mobile smartphone using Bootstrap's responsive design technology, together with custom CSS breakpoints and media queries.
 
 ### STRUCTURE
 
-The website and code is divided into sections as follows:
-    1. Header
-        Fixed full width header section that contains company logo and site menu.
-    2. Landing Page 
-        Fixed full width section
-    3. Bespoke
-    4. Ready-to-Wear
-    5. Mix n Match
-    6. About
-    7. Contact
-    8. Footer
-         Fixed full width section
+The website and code is divided into the following sections:
+
+    |                   |
+    Landing Page      Header
+    |                   |
+    Bespoke             |
+    |                   |
+    Ready-to-Wear       |
+    |                   |
+    Mix n Match         |
+    |                   |
+    About               |
+    |                   |
+    Contact             |
+    |                   |
+    Footer              |
+    |                   |
+
 
 ## TESTING
 
