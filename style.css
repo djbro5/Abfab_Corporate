@@ -35,6 +35,11 @@ p {
   font-size: 0.85vw;
 }
 
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #4D4F6E !important;
+  border: #8CBA99 !important;
+}
+
 
 /* *************************************************************************************
     Media queries 
