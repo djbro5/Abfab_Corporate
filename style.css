@@ -1,9 +1,7 @@
-
-/* *************************************************************************************
- # style.css 
+/* ************************************************************************************
+ #  SOME LAYOUT STYLING (Predominately styled with Bootstrap)                           #
+ #  10px = 0.625em, 15px = 0.94em, 20px = 1.25em 30px = 1.7vw                              #
  ************************************************************************************ */
-
-/* 10px = 0.625em, 15px = 0.94em, 20px = 1.25em 30px = 1.7vw */
 
 .clearfix::after {
   content: "";
@@ -11,13 +9,11 @@
   display: table;
 }
 
-/* font-size vw fluid element for fluid typography */
+/* font-size vw fluid element for fluid typography  12px + 0.490625vw*/
 html,body {
   height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-
-    font-size: calc(12px + 0.390625vw);
-
+  font-size: calc(1.20625vw);
 } 
 
 p {
@@ -30,7 +26,6 @@ p {
   font-size: 1vw;
 }
 
-
 .card-text {
   font-size: 0.85vw;
 }
@@ -40,57 +35,50 @@ p {
   border: #8CBA99 !important;
 }
 
-/* *************************************************************************************
-    Media queries 
-************************************************************************************* */
-
-
-
-/* Mobile friendly */
-
-@media screen and (max-width: 768px) {
-  /* styles
-  html, body{
-    font-size: 1.2vw;
-  }
-
- */
-
-  #client_logos { 
-    display: none;
-  }
-
-  #logo{
-    width: 100%;
-  }
-
-  /*
-  p {
-    font-size: 2vw;
-  }
-}
-*/
+/* ************************************************************************************
+#   MEDIA QUERIES                                                                                                       #
+#   for Mobile device friendly                                                                                       #
+**************************************************************************************/
 
 @media screen and (max-width: 621px) {
-  /* styles
+
   html, body{
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
-   */
+
+  p {
+      font-size: 3.5vw;
+  }
+
   .navbar-nav { 
     display: none;
   }
+
   #client_logos { 
     display: none;
   }
+
+  #dummy {
+    display: none;
+  }
+
+  #swatches {
+    display: none;
+  }
+
+  #handStitching {
+    display: none;
+  }
+
+  #shirts {
+    display:none;
+  }
+
  #main_heading   {
   width: 100%;
   }
   #logo{
     width: 100%;
   }
-  p {
-    font-size: 3vw;
-  }
-}
+
 }
