@@ -13,17 +13,21 @@
 html,body {
   height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: calc(1.20625vw);
+  font-size: 1.0vw;
 } 
 
 p {
   color: #000; 
 }
 
-.caption {
+a:hover {
+  background-color: #8CBA99;
+}
+
+figcaption {
   color: #000;   /* 40436d */
   font-weight: normal;
-  font-size: 1vw;
+  font-size: 0.5vw;
 }
 
 .card-text {
@@ -48,6 +52,10 @@ p {
 
   p {
       font-size: 3.5vw;
+  }
+
+  h1, h3 {
+    font-size: 5.5vw;
   }
 
   .navbar-nav { 
