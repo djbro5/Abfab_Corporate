@@ -1,5 +1,5 @@
 /* ************************************************************************************
- #  SOME LAYOUT STYLING (Predominately styled with Bootstrap)                           #
+ #  LAYOUT STYLING (Also styled with Bootstrap)                                                       #
  #  10px = 0.625em, 15px = 0.94em, 20px = 1.25em 30px = 1.7vw                              #
  ************************************************************************************ */
 
@@ -13,8 +13,12 @@
 html,body {
   height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 1.0vw;
+  /* font-size: 1.5vw; */
 } 
+
+#CCU {
+  font-size: 4vw;
+}
 
 p {
   color: #000; 
@@ -40,11 +44,87 @@ figcaption {
 }
 
 /* ************************************************************************************
-#   MEDIA QUERIES                                                                                                       #
-#   for Mobile device friendly                                                                                       #
+#   MEDIA QUERIES   for Mobile device friendly          
+#   Major breakpoints: 1024px, 720px and 320px
 **************************************************************************************/
 
-@media screen and (max-width: 621px) {
+
+@media screen and (max-width: 1300px) {
+  
+  html, body{
+    font-size: 1.5vw;
+  }
+
+  p {
+    font-size: 2.5vw;
+}
+
+}
+
+
+
+@media screen and (max-width: 720px) {
+  
+  html, body{
+    font-size: 2.5vw;
+  }
+
+  p {
+      font-size: 2.5vw;
+  }
+
+  #AFAB {
+    font-size: 5.5vw;
+  }
+
+  h4 {
+    font-size: 3.5vw;
+  }
+
+  #CCU {
+    font-size: 5vw;
+  }
+
+  .navbar-nav { 
+    display: none;
+  }
+
+  #menSuit {
+    display: none;
+  }
+
+  #client_logos { 
+    display: none;
+  }
+
+  #dummy {
+    display: none;
+  }
+
+  #swatches {
+    display: none;
+  }
+
+  #handStitching {
+    display: none;
+  }
+
+  #shirts {
+    display:none;
+  }
+
+ #main_heading {
+  width: 100%;
+  }
+
+  #logo {
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: 320px) {
 
   html, body{
     font-size: 2.5vw;
@@ -54,11 +134,23 @@ figcaption {
       font-size: 3.5vw;
   }
 
-  h1, h3 {
+  #AFAB {
     font-size: 5.5vw;
   }
 
+  h4 {
+    font-size: 5.5vw;
+  }
+
+  #CCU {
+    font-size: 10vw;
+  }
+
   .navbar-nav { 
+    display: none;
+  }
+
+  #menSuit {
     display: none;
   }
 
@@ -85,6 +177,7 @@ figcaption {
  #main_heading   {
   width: 100%;
   }
+
   #logo{
     width: 100%;
   }
