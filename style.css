@@ -5,6 +5,7 @@
 
 .clearfix::after {
   content: "";
+  overflow: auto;
   clear: both;
   display: table;
 }
@@ -16,8 +17,12 @@ html,body {
   /* font-size: 1.5vw; */
 } 
 
-#CCU {
+#CCU_vertical {
   font-size: 4vw;
+}
+
+#CCU_horizontal {
+  display: none;
 }
 
 p {
@@ -47,42 +52,89 @@ figcaption {
 #   MEDIA QUERIES   for Mobile device friendly          
 #   Major breakpoints: 1024px, 720px and 320px
 **************************************************************************************/
-
-
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 1700px) {
   
   html, body{
-    font-size: 1.5vw;
+    font-size: 0.7vw;
+  }
+
+  .list {
+    font-size: 1vw;
   }
 
   p {
-    font-size: 2.5vw;
+    font-size: 1.0vw;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1.5vw;
+}
+}
+
+
+@media screen and (max-width: 1000px) {
+  
+  html, body{
+    font-size: 0.8vw;
+  }
+
+  .list {
+    font-size: 0.5vw;
+  }
+
+  p {
+    font-size: 1.2vw;
+}
+
+#AFAB {
+  font-size: 5.5vw;
 
 }
 
 
 
 @media screen and (max-width: 720px) {
+
+/* 720 to 575 */
   
   html, body{
-    font-size: 2.5vw;
+    font-size: 1.3vw;
   }
 
   p {
-      font-size: 2.5vw;
+      font-size: 3vw;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 2vw;
+  }
+
+  .list {
+    font-size: 3vw;
   }
 
   #AFAB {
     font-size: 5.5vw;
   }
 
-  h4 {
-    font-size: 3.5vw;
+  .test {
+    font-size: 5vw;
   }
 
   #CCU {
     font-size: 5vw;
+  }
+
+  #CCU_vertical {
+    display: none;
+  }
+  
+  #CCU_horizontal {
+    font-size: 5vw;
+    display: contents;
+    text-align: center; 
+    margin-top: 5vw; 
+    margin-bottom: 5vw;
   }
 
   .navbar-nav { 
@@ -131,7 +183,15 @@ figcaption {
   }
 
   p {
-      font-size: 3.5vw;
+      font-size: 4.5vw;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 7vw;
+  }
+
+  .list {
+    font-size: 5vw;
   }
 
   #AFAB {
@@ -142,8 +202,19 @@ figcaption {
     font-size: 5.5vw;
   }
 
-  #CCU {
-    font-size: 10vw;
+  #CCU_vertical {
+    display: none;
+  }
+  
+  #CCU_horizontal {
+    font-size: 7vw;
+  
+    margin-top: 5vw; 
+    margin-bottom: 5vw;
+  }
+
+  #main_heading {
+    margin-top: 5vw; 
   }
 
   .navbar-nav { 
@@ -181,5 +252,7 @@ figcaption {
   #logo{
     width: 100%;
   }
+
+}
 
 }
