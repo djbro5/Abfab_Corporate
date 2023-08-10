@@ -36,7 +36,7 @@ a:hover {
 figcaption {
   color: #000;   /* 40436d */
   font-weight: normal;
-  font-size: 0.5vw;
+  font-size: 1vw;
 }
 
 .card-text {
@@ -52,7 +52,7 @@ figcaption {
 #   MEDIA QUERIES   for Mobile device friendly          
 #   Major breakpoints: 1024px, 720px and 320px
 **************************************************************************************/
-@media screen and (min-width: 1700px) {
+@media screen and (min-width: 1200px) {
   
   html, body{
     font-size: 0.7vw;
@@ -80,6 +80,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .list {
     font-size: 0.5vw;
+  }
+
+  .test {
+    font-size: 2vw;
   }
 
   p {
@@ -121,9 +125,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 5vw;
   }
 
-  #CCU {
-    font-size: 5vw;
-  }
+
 
   #CCU_vertical {
     display: none;
@@ -132,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
   #CCU_horizontal {
     font-size: 5vw;
     display: contents;
-    text-align: center; 
+
     margin-top: 5vw; 
     margin-bottom: 5vw;
   }
@@ -208,7 +210,6 @@ h1, h2, h3, h4, h5, h6 {
   
   #CCU_horizontal {
     font-size: 7vw;
-  
     margin-top: 5vw; 
     margin-bottom: 5vw;
   }
