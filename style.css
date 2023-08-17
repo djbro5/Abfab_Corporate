@@ -25,6 +25,10 @@ html,body {
   display: none;
 }
 
+.heading {
+  font-size: 2vw;
+}
+
 p {
   color: #000; 
 }
@@ -36,7 +40,7 @@ a:hover {
 figcaption {
   color: #000;   /* 40436d */
   font-weight: normal;
-  font-size: 1vw;
+  font-size: 3vw;
 }
 
 .card-text {
@@ -50,9 +54,9 @@ figcaption {
 
 /* ************************************************************************************
 #   MEDIA QUERIES   for Mobile device friendly          
-#   Major breakpoints: 1024px, 720px and 320px
+#   Major breakpoints: 1400px, 720px, 570px and 320px
 **************************************************************************************/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   
   html, body{
     font-size: 0.7vw;
@@ -62,23 +66,30 @@ figcaption {
     font-size: 1vw;
   }
 
+  .heading {
+    font-size: 3vw;
+  }
+
   p {
     font-size: 1.0vw;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1.5vw;
+  }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 1.5vw;
-}
-}
 
-
-@media screen and (max-width: 1000px) {
+/* ****************************************************************** */
+/* SCREEN WIDTH 721px to 1399px                                                      */
+/* ****************************************************************** */
+@media screen and (max-width: 1399px) {
   
   html, body{
     font-size: 0.8vw;
   }
 
-  .list {
+  .listHeading {
     font-size: 0.5vw;
   }
 
@@ -88,44 +99,52 @@ h1, h2, h3, h4, h5, h6 {
 
   p {
     font-size: 1.2vw;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1.5vw;
+  }
+
+  #AFAB {
+    font-size: 4.5vw;
+  }
+
+img {
+  width:100%;
 }
 
-#AFAB {
-  font-size: 5.5vw;
-
-}
-
-
-
+/* ****************************************************************** */
+/* SCREEN WIDTH 571px to 720px                                                      */
+/* ****************************************************************** */
 @media screen and (max-width: 720px) {
-
-/* 720 to 575 */
   
   html, body{
-    font-size: 1.3vw;
+    font-size: 2.3vw;
   }
 
   p {
       font-size: 3vw;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 2vw;
+  #listHeading {
+    font-size: 4vw;
   }
 
   .list {
     font-size: 3vw;
   }
 
-  #AFAB {
-    font-size: 5.5vw;
+  #logo {
+    font-size: 3vw;
+  }
+
+  .heading {
+    font-size: 6vw;
   }
 
   .test {
-    font-size: 5vw;
+    font-size: 4vw;
   }
-
-
 
   #CCU_vertical {
     display: none;
@@ -134,7 +153,6 @@ h1, h2, h3, h4, h5, h6 {
   #CCU_horizontal {
     font-size: 5vw;
     display: contents;
-
     margin-top: 5vw; 
     margin-bottom: 5vw;
   }
@@ -143,28 +161,8 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
   }
 
-  #menSuit {
+  #menSuit, #client_logos,  #dummy,  #swatches, #handStitching, #shirts {
     display: none;
-  }
-
-  #client_logos { 
-    display: none;
-  }
-
-  #dummy {
-    display: none;
-  }
-
-  #swatches {
-    display: none;
-  }
-
-  #handStitching {
-    display: none;
-  }
-
-  #shirts {
-    display:none;
   }
 
  #main_heading {
@@ -177,19 +175,83 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+/* ****************************************************************** */
+/* SCREEN WIDTH 321px to 570px                                                     */
+/* ****************************************************************** */
+@media screen and (max-width: 570px) {
+  
+  html, body{
+    font-size: 2.3vw;
+  }
 
+  p {
+      font-size: 3vw;
+  }
+
+  #listHeading {
+    font-size: 4vw;
+  }
+
+  .list {
+    font-size: 3vw;
+  }
+
+  #logo {
+    font-size: 3vw;
+  }
+
+  .heading {
+    font-size: 6vw;
+  }
+
+  .test {
+    font-size: 4vw;
+  }
+
+  #CCU_vertical {
+    display: none;
+  }
+  
+  #CCU_horizontal {
+    font-size: 5vw;
+    display: contents;
+    margin-top: 5vw; 
+    margin-bottom: 5vw;
+  }
+
+  .navbar-nav { 
+    display: none;
+  }
+
+  #menSuit, #client_logos,  #dummy,  #swatches, #handStitching, #shirts {
+    display: none;
+  }
+
+ #main_heading {
+  width: 100%;
+  }
+
+  #logo {
+    width: 100%;
+  }
+
+}
+
+/* ****************************************************************** */
+/* SCREEN WIDTH 0 to 720px                                                             */
+/* ****************************************************************** */
 @media screen and (max-width: 320px) {
 
   html, body{
     font-size: 2.5vw;
   }
 
-  p {
-      font-size: 4.5vw;
+  img {
+    width:80%;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 7vw;
+  p {
+      font-size: 4.5vw;
   }
 
   .list {
@@ -200,8 +262,20 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 5.5vw;
   }
 
-  h4 {
+  #listHeading {
+    font-size: 6vw;
+  }
+
+  h2, h4 {
     font-size: 5.5vw;
+  }
+
+  .heading {
+    font-size: 7vw;
+  }
+
+  .test {
+    font-size: 5vw;
   }
 
   #CCU_vertical {
@@ -222,28 +296,8 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
   }
 
-  #menSuit {
+  #menSuit, #client_logos,  #dummy,  #swatches, #handStitching, #shirts {
     display: none;
-  }
-
-  #client_logos { 
-    display: none;
-  }
-
-  #dummy {
-    display: none;
-  }
-
-  #swatches {
-    display: none;
-  }
-
-  #handStitching {
-    display: none;
-  }
-
-  #shirts {
-    display:none;
   }
 
  #main_heading   {
